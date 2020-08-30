@@ -2,6 +2,8 @@
 
 我的个人博客：<https://dh.jiang7zzz.xyz>。
 
+本导航是使用hexo搭建，使用中。
+
 ### 
 
 本项目这是一个网址导航网站，内容均由[viggo](http://viggoz.com/)收集并整理。本项目前端基于bootstrap前端框架开发.
