@@ -213,11 +213,10 @@ hexo clean
   $ Hexo clean && hexo g && hexo d
   ```
 
-- 插入网站运行时间代码
+- **插入网站运行时间代码**
 
   ```
-  样例 1
-  
+  样例 1:
   <span>
   本站已运行
   </span>
@@ -242,7 +241,8 @@ hexo clean
   }
   show_date_time();
   </script>
-  
+  ```
+  ```
   样例 2：
   当前系统时间
   <span id="nowTime"></span>
@@ -272,7 +272,8 @@ hexo clean
   setTimeout("getLangDate()",1000);
   }
   </script>
-  
+  ```
+  ```
   样例三：
   function showtime(times) { //传入时间的参数
   var time_1 = new Date(times).getTime();
@@ -305,5 +306,4 @@ hexo clean
   int_minute = "0" + int_minute;
   }
   ```
-
   
